@@ -1,6 +1,9 @@
 import subprocess
+import time
 
 def main():
+    start_time = time.time()  # Start timing
+
     print("Script started\n")
 
     # Run merge.py script
@@ -20,6 +23,14 @@ def main():
     print("CSV creation done\n")
 
     print("Script ended\n")
+
+     # Calculate time taken
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    elapsed_minutes = elapsed_time / 60  # Convert seconds to minutes
+
+    print(f"Total execution time in seconds: {elapsed_time:.2f} seconds\n")
+    print(f"Total execution time in muinets: {elapsed_minutes:.2f} minutes\n")
 
 if __name__ == "__main__":
     main()

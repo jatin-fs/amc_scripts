@@ -9,10 +9,13 @@ filtered_output_file = "result_data/filtered_data.json"
 
 # Fields to keep
 fields_to_keep = [
-    "Id", "DepartmentName", "DepartmentId", "DocumentNumber",
-    "Description", "FileUpload", "CreatedDateSTR", "GTypeText",
-    "CircularDOCNAME", "OrderDateSTR", "EffectiveDateSTR", "Remarks"
+    "Id", "DocumentNumber", "Description", "FileUpload",
 ]
+# fields_to_keep = [
+#     "Id", "DepartmentName", "DepartmentId", "DocumentNumber",
+#     "Description", "FileUpload", "CreatedDateSTR", "GTypeText",
+#     "CircularDOCNAME", "OrderDateSTR", "EffectiveDateSTR", "Remarks"
+# ]
 
 # Load merged data
 try:

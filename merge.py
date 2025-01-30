@@ -2,7 +2,7 @@ import os
 import json
 
 # Directory containing the JSON files
-json_dir = "sampledata"  # Change this to your directory path
+json_dir = "sapledatatwo"  # Change this to your directory path
 
 # Directory to store the merged JSON file
 output_dir = "result_data"
