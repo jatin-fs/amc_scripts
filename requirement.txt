@@ -1,0 +1,13 @@
+certifi==2024.12.14
+charset-normalizer==3.4.1
+idna==3.10
+langdetect==1.0.9
+packaging==24.2
+pdf2image==1.17.0
+pillow==10.4.0
+pypdf2==3.0.1
+pytesseract==0.3.13
+requests==2.32.3
+six==1.17.0
+typing-extensions==4.12.2
+urllib3==2.2.3
