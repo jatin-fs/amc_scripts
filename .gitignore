@@ -1,0 +1,47 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment-specific files
+.env
+*.env
+
+# Ignore logs and temp files
+*.log
+*.out
+*.tmp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore package management files
+pip-log.txt
+pip-wheel-metadata/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore local database files
+*.sqlite3
+db.sqlite3

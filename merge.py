@@ -2,10 +2,10 @@ import os
 import json
 
 # Directory containing the JSON files
-json_dir = "data"  # Change this to your directory path
+json_dir = "sampledata"  # Change this to your directory path
 
 # Directory to store the merged JSON file
-output_dir = "mergedresult"
+output_dir = "result_data"
 os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
 # List to store all combined data items

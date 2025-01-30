@@ -2,10 +2,10 @@ import os
 import json
 
 # Path to the merged JSON file
-merged_file_path = "mergedresult/merged_data.json"
+merged_file_path = "result_data/merged_data.json"
 
 # Path for the filtered output file
-filtered_output_file = "mergedresult/filtered_data.json"
+filtered_output_file = "result_data/filtered_data.json"
 
 # Fields to keep
 fields_to_keep = [
